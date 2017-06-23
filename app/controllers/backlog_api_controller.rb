@@ -1,0 +1,2 @@
+class BacklogApiController < ApplicationController
+end
