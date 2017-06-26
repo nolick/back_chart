@@ -41,7 +41,7 @@ class BacklogApiController < ApplicationController
   # https://www.sitepoint.com/ddd-for-rails-developers-part-1-layered-architecture/
   def intialize_backlog_client
     @client ||= BacklogKit::Client.new( space_id: 'rebecca',
-      api_key: 'KQ5p8uMkpZC9HBMrzkb25uPBrzHFE8XnOoocRvsNNlqdoe1pJ8ylkhO4yq7zNJSP',
+      api_key: '',
     )
   end
 
